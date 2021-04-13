@@ -6,26 +6,20 @@
   </div>
 
   <div class="navbar-start">
-    <a class="navbar-item">
+    <a [routerLink]="['/products']" class="navbar-item">
       Product list
     </a>
   </div>
   <div class="navbar-end">
-    <a class="navbar-item">
+    <a [routerLink]="['/checkout']" class="navbar-item">
       <span class="icon is-medium">
           <i class="mdi mdi-24px mdi-cart-outline"></i>
       </span>
     </a>
   </div>
 </nav>
-<section>
-  <div class="container">
-    <div class="columns">
-      <div class="is-half is-full-mobile is-offset-one-quarter">
-        <router-outlet></router-outlet>
-      </div>
-    </div>
-  </div>
+<section class="section">
+  <router-outlet></router-outlet>
 </section>
 
 
