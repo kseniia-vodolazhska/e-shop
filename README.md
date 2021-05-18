@@ -1,27 +1,24 @@
-# EShop
+# Frontend Test
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.4.
+### For Applicants 
 
-## Development server
+This project is an opportunity to showcase your skills and maturity in software design and development.
+We will use the result of your project to evaluate the quality of your work and suitability for Deltager. This is not Pass/Fail test so please do what you can.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+### Business Rules
 
-## Code scaffolding
+This application is a simple e-commerce web app with the ability to buy any product.
+It allows the user to pick a product from the products list and add it to the shopping cart, enter shipping and billing address as well as payment information required for order creation.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+The checkout process consists of 3 steps: 
+- Select Products to purchase from the Product catalog and enter its amount (At least one product in shopping cart required to proceed to next checkout step)
+- Fill in Shipping/Billing info with possibility to prefill Billing info from Shipping info
+- Fill in Payment info
 
-## Build
+### Task
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+The current code is legacy and requires refactoring/improvements to be production-ready. Your task requires: 
+- refactoring of existing code according to the best coding practices to make it production-ready
+- update of shopping cart logic so it will show the amount of products user is willing to buy (update of an indicator inside navbar)
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+**Good luck!**
